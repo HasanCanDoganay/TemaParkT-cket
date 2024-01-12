@@ -29,7 +29,7 @@ public class Main {
             else{
                 toplam=8;
                 }}
-        else if(yas>=13 && yas<60){
+        else if(yas>13 && yas<60){
             System.out.println("Grup ile mi geldiniz?");
             grup = reader.next();
             if (grup.equals("evet")) {
